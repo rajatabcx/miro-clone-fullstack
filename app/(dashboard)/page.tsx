@@ -1,4 +1,5 @@
 'use client';
+
 import { useOrganization } from '@clerk/nextjs';
 import { EmptyOrg } from './_components/EmptyOrg';
 import BoardList from './_components/BoardList';

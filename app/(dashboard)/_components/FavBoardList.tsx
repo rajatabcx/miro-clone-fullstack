@@ -15,5 +15,9 @@ export default function FavBoardList(props: BoardListProps) {
 
   if (!data.length) return <EmptyFavs />;
 
-  return <h1>All The Fav Board Data</h1>;
+  return (
+    <>
+      <h1 className='text-3xl'>Team Boards</h1>
+    </>
+  );
 }

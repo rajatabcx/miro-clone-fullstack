@@ -1,11 +1,6 @@
 import { Button } from '@/components/ui/button';
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogTrigger,
-} from '@/components/ui/dialog';
-import { OrganizationProfile, useOrganization } from '@clerk/nextjs';
+import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
+import { OrganizationProfile } from '@clerk/nextjs';
 import { UserPlus2 } from 'lucide-react';
 import React from 'react';
 
